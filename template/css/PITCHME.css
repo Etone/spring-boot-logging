@@ -250,3 +250,7 @@ div.docslink a:hover {
   opacity: 0.75 !important;
   font-size: 50% !important;
 }
+
+.text-nt-orange {
+  color: #f39000;
+}
