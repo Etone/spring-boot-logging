@@ -2,7 +2,8 @@
 @title[Introduction]
 
 @snap[west text-25 text-bold text-white]
-GitPitch<br>*The Template*
+Logging  
+*with Spring Boot and slf4j*
 @snapend
 
 @snap[south-west byline text-white text-06]
