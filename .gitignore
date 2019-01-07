@@ -4,3 +4,8 @@ logging_demo/\.idea/
 logging_demo/\.mvn/
 
 logging_demo/target/
+logging_demo/\.project
+
+logging_demo/\.classpath
+
+logging_demo/\.settings/
