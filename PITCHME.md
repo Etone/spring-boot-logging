@@ -1,6 +1,6 @@
 @title[Introduction]
 
-@snap[west text-25 text-bold text-white]
+@snap[west text-25 text-bold]
 Logging  
 *with Spring Boot and slf4j*
 @snapend
