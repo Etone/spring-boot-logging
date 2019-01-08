@@ -1,11 +1,14 @@
----?color=linear-gradient(145deg, #e9454e 0%, #ffed7b 100%);
+---?color=linear-gradient(145deg, #e9454e 0%, #ffed7b 100%);#
+@title[Message handling]
 
 @snap[midpoint text-white]
 Message handling
 
 +++?image=template/img/bg/orange.jpg&position=top&size=100% 15%
+@title[String concatination]
+
 @snap[north text-white span-100]
-String concationation
+String concatination
 @snapend
 
 ```java
@@ -16,6 +19,7 @@ logger.debug("Warning message for ID {} and organization {}",
 @[1-2](String concatination only done when loglevel < DEBUG)
 
 +++?image=template/img/bg/orange.jpg&position=top&size=100% 15%
+@title[Exception handling]
 
 @snap[north text-white span-100]
 Exception logging
