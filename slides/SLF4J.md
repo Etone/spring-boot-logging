@@ -5,9 +5,13 @@
 +++
 
 ```java
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class ReferencesController {
 
-    private Logger logger = LoggerFactory.getLogger(ReferencesController.class);
+    private Logger logger = LoggerFactory.getLogger(
+        ReferencesController.class);
 
     @GetMapping("/error")
     public void logErrorMessageFromReferences(){
@@ -16,5 +20,5 @@ public class ReferencesController {
 }
 ```
 
-@[3](Initialization of logger with logger factory)
-@[7](Usage of logger to log error message)
+@[1,2,6-7](Initialization of logger with logger factory)
+@[11](Usage of logger to log error message)
