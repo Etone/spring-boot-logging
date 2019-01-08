@@ -15,7 +15,7 @@
 }
 
 .split-screen-list li::before {
-  color: #FF5600 !important;
+  color: #f39000 !important;
   background-color: white !important;
 }
 
@@ -173,7 +173,7 @@ div.docslink a {
 }
 
 div.docslink a:hover {
-  color: #e58537 !important;
+  color: #f39000 !important;
   font-weight: bold;
 }
 
@@ -217,7 +217,7 @@ div.docslink a:hover {
   padding: 3px 10px;
   margin-right: 15px;
   border-radius: 3px;
-  background-color: #F26225;
+  background-color: #f39000;
   content: counter(step-counter);
 }
 
