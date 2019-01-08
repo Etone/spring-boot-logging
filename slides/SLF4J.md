@@ -51,6 +51,3 @@ d.n.l.references.ReferencesController
 @[4](Thread)
 @[5](Shorthand Package / Class for Logger or Logger Name)
 @[6](Log Message)
-
-+++
-
