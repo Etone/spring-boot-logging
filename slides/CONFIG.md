@@ -9,15 +9,19 @@ Configuration
 Log Levels
 @snapend
 
-@ol[](false)
+@snap[midpoint list-content-concise span-100]
+@ol
 
-1. ERROR
-2. WARN
-3. INFO @fa[arrow-right] default log level
-4. DEBUG
-5. TRACE
+- ERROR
+- WARN
+- INFO @fa[arrow-right] default log level
+- DEBUG
+- TRACE
 
 @olend
+<br><br>
+@snapend
+
 +++
 
 ```plain
