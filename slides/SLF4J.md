@@ -1,4 +1,4 @@
----?image=template/img/bg/orange.jpg&size=100% 100%
+---?color=linear-gradient(120deg, #ffed7b 0%, #e9454e 100%);
 
 @css[text-white]
 Logging with slf4j and Logback
