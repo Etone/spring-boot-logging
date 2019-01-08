@@ -1,4 +1,4 @@
-+++?image=template/img/bg/orange.jpg&position=right&size=50% 100%
+---?image=template/img/bg/orange.jpg&position=right&size=50% 100%
 @title[Agenda]
 
 @snap[west text-16 text-bold text-nt-orange text-italic span-50]
