@@ -9,23 +9,21 @@ Configuration
 Log Levels
 @snapend
 
-@snap[midpoint text-nt-orange]
-
 1. ERROR
 2. WARN
 3. INFO @fa[arrow-right] default log level
 4. DEBUG
 5. TRACE
 
-@snapend
-
 +++
 
-```properties
+```
+
 logging.group.<name>
 logging.level.<log group or logger>
 logging.pattern.console
 logging.pattern.file
+
 ```
 
 @[1](Grouping of loggers, default groups: web, sql, root)
