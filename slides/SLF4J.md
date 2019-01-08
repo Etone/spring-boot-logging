@@ -13,10 +13,10 @@ import org.slf4j.LoggerFactory;
 
 public class ReferencesController {
 
-    private Logger logger = LoggerFactory.getLogger(
+    private Logger loggerClass = LoggerFactory.getLogger(
         ReferencesController.class);
 
-    private Logger logger = LoggerFactory.getLogger(
+    private Logger loggerNamed = LoggerFactory.getLogger(
         "Reference Controller Logger");
 
     @GetMapping("/error")
