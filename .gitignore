@@ -11,3 +11,7 @@ logging_demo/\.classpath
 logging_demo/\.settings/
 
 *.class
+
+\.idea/
+
+*.iml
