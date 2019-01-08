@@ -9,7 +9,8 @@ String concationation
 @snapend
 
 ```java
-logger.debug("Warning message for ID {} and organization {}",id, orgId);
+logger.debug("Warning message for ID {} and organization {}",
+                id, orgId);
 ```
 
 @[1](String concatination only done when loglevel < DEBUG)
@@ -25,7 +26,7 @@ try {
     //Code that potentially throws exception
 } catch (Exception ex) {
     logger.error("Error while logging.",
-     ex.getStackTrace(), ex);
+                    ex.getStackTrace(), ex);
 }
 ```
 @[4-5](No need of placeholder)
