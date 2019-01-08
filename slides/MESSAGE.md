@@ -13,7 +13,7 @@ logger.debug("Warning message for ID {} and organization {}",
                 id, orgId);
 ```
 
-@[1](String concatination only done when loglevel < DEBUG)
+@[1-2](String concatination only done when loglevel < DEBUG)
 
 +++?image=template/img/bg/orange.jpg&position=top&size=100% 15%
 
