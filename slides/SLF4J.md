@@ -1,23 +1,17 @@
----?image=template/img/bg/gray.jpg&position=top&size=100% 20%
-@title[SLF4J Logger]
+---?image=template/img/bg/gray.jpg&size=100% 100%
 
-@snap[north text-nt-orange span-100]
-@size[1.5em](Using slf4j with Spring Boot)
-@snapend
+@box[bg-orange text-white demo-box-text-padding rounded](Logging with slf4j and Logback)
+
++++
 
 ```java
-package de.novatec.logging_demo.references;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-// ...
-
-@RestController
-@RequestMapping("/references")
 public class ReferencesController {
 
     private Logger logger = LoggerFactory.getLogger(ReferencesController.class);
 
-    // REST Handlers
-}
+    @GetMapping("/error")
+    public void logErrorMessageFromReferences(){
+        logger.error("References error log message");
+    }
+
 ```
