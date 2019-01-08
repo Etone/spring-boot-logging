@@ -1,9 +1,11 @@
 ---?color=linear-gradient(145deg, #e9454e 0%, #ffed7b 100%);
+@title[Logging with SLF4J]
 
 @snap[midpoint text-white]
 Logging with slf4j and Logback
 
 +++
+@title[Source Code]
 
 ```java
 package de.novatec.logging_demo.references;
@@ -31,6 +33,7 @@ public class ReferencesController {
 @[16](Usage of logger to log error message)
 
 +++?image=template/img/bg/orange.jpg&position=top&size=100% 15%
+@title[Logging format]
 
 @snap[north text-white span-100]
 Logging Format

@@ -1,9 +1,11 @@
 ---?color=linear-gradient(145deg, #e9454e 0%, #ffed7b 100%);
+@title[Configuration]
 
 @snap[midpoint text-white]
 Configuration
 
 +++?image=template/img/bg/orange.jpg&position=top&size=100% 15%
+@title[Loglevels]
 
 @snap[north text-white span-100]
 Log Levels
@@ -23,6 +25,8 @@ Log Levels
 @snapend
 
 +++?image=template/img/bg/orange.jpg&position=top&size=100% 15%
+@title[Config flags]
+
 @snap[north text-white span-100]
 Config flags in application.properties
 @snapend

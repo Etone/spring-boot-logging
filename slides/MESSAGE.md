@@ -1,4 +1,4 @@
----?color=linear-gradient(145deg, #e9454e 0%, #ffed7b 100%);#
+---?color=linear-gradient(145deg, #e9454e 0%, #ffed7b 100%);
 @title[Message handling]
 
 @snap[midpoint text-white]
