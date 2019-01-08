@@ -22,7 +22,10 @@ Log Levels
 <br><br>
 @snapend
 
-+++
++++?image=template/img/bg/orange.jpg&position=top&size=100% 15%
+@snap[north text-white span-100]
+Config flags in application.properties
+@snapend
 
 ```plain
 logging.group.<name>
