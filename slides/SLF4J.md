@@ -1,6 +1,7 @@
----?image=template/img/bg/gray.jpg&size=100% 100%
+---?image=template/img/bg/orange.jpg&size=100% 100%
 
-@box[bg-orange text-white demo-box-text-padding rounded](Logging with slf4j and Logback)
+@css[text-white]
+Logging with slf4j and Logback
 
 +++
 
