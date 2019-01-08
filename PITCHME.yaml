@@ -26,13 +26,13 @@ theme-override : template/css/PITCHME.css
 # https://gitpitch.com/docs/settings/logo
 #
 logo : template/img/logo.png
-logo-position : top-left
+logo-position : bottom-right
 
 #
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+footnote : "Logging with Spring Boot and slf4j"
 
 #
 # Highlight (Code) Setting

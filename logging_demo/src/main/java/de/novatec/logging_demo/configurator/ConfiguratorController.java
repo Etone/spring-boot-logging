@@ -3,6 +3,8 @@ package de.novatec.logging_demo.configurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,28 +20,33 @@ public class ConfiguratorController {
     private ConfiguratorService service;
 
     @GetMapping("/error")
-    public void logErrorMessageFromConfigurator(){
+    public ResponseEntity logErrorMessageFromConfigurator(){
         logger.error("Configurator REST error log message");
+        return new ResponseEntity(HttpStatus.OK);
     }
 
     @GetMapping("/warn")
-    public void logWarnMessageFromConfigurator(){
+    public ResponseEntity logWarnMessageFromConfigurator(){
         logger.warn("Configurator REST warn log message");
+        return new ResponseEntity(HttpStatus.OK);
     }
 
     @GetMapping("/info")
-    public void logInfoMessageFromConfigurator(){
+    public ResponseEntity logInfoMessageFromConfigurator(){
         logger.info("Configurator REST info log message");
+        return new ResponseEntity(HttpStatus.OK);
     }
 
     @GetMapping("/debug")
-    public void logDebugMessageFromConfigurator(){
+    public ResponseEntity logDebugMessageFromConfigurator(){
         logger.debug("Configurator REST debug log message");
+        return new ResponseEntity(HttpStatus.OK);
     }
 
     @GetMapping("/trace")
-    public void logTraceMessageFromConfigurator(){
+    public ResponseEntity logTraceMessageFromConfigurator(){
         logger.trace("Configurator REST trace log message");
         service.logTraceMessageService();
+        return new ResponseEntity(HttpStatus.OK);
     }
 }
