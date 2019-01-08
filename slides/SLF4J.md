@@ -31,4 +31,18 @@ public class ReferencesController {
 
 +++
 
-2019-01-08 11:41:30.338 ERROR 20296 --- [nio-8080-exec-4] d.n.l.references.ReferencesController    : References error log message
+```log
+2019-01-08 11:41:30.338
+ERROR
+20296
+--- [nio-8080-exec-4]
+d.n.l.references.ReferencesController
+: References error log message
+```
+
+@[1](Timestamp)
+@[2](Severity)
+@[3](PID)
+@[4](Thread)
+@[5](Shorthand Package / Class for Logger or Logger Name)
+@[6](Log Message)
