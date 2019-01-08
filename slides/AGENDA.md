@@ -9,8 +9,8 @@ Topics to be covered
 @ol[split-screen-list text-08](false)
 
 - Using slf4j
-- logging groups
-- Setting log levels on groups and logger basis
+- Configuration
+- Code demo
 
 @olend
 @snapend
