@@ -8,3 +8,4 @@ Logging
 ---?include=slides/AGENDA.md
 ---?include=slides/SLF4J.md
 ---?include=slides/CONFIG.md
+---?include=slides/MESSAGE.md
