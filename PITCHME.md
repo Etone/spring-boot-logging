@@ -6,3 +6,4 @@ Logging
 @snapend
 
 ---?include=slides/AGENDA.md
+---?include=slides/SLF4J.md
