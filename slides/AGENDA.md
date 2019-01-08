@@ -10,6 +10,7 @@ Topics to be covered
 
 - Using slf4j
 - Configuration
+- Message handling with slf4j
 - Code demo
 
 @olend
