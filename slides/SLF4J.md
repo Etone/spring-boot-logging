@@ -13,15 +13,16 @@ import org.slf4j.LoggerFactory;
 
 public class ReferencesController {
 
-    private Logger loggerClass = LoggerFactory.getLogger(
+    private Logger logger = LoggerFactory.getLogger(
         ReferencesController.class);
 
-    private Logger loggerNamed = LoggerFactory.getLogger(
-        "Reference Controller Logger");
+//    private Logger logger = LoggerFactory.getLogger(
+//        "Reference Controller Logger");
 
     @GetMapping("/error")
-    public void logErrorMessageFromReferences(){
+    public ResponseEntity logErrorMessageFromReferences(){
         logger.error("References error log message");
+        return new ResponseEntity(HttpStatus.OK);
     }
 }
 ```
