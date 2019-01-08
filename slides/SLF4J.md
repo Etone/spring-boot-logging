@@ -31,8 +31,4 @@ public class ReferencesController {
 
 +++
 
-@box[bg-orange text-white demo-box-text-padding rounded](2019-01-08 11:32:14.314 ERROR 20296 --- [nio-8080-exec-1] d.n.l.references.ReferencesController    : References error log message)
-
-@snap[south-west template-note text-white]
-<br>Logger output for Error message
-@snapend
+2019-01-08 11:41:30.338 ERROR 20296 --- [nio-8080-exec-4] d.n.l.references.ReferencesController    : References error log message
