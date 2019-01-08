@@ -1,6 +1,6 @@
----?color=linear-gradient(120deg, #ffed7b 0%, #e9454e 100%);
+---?color=linear-gradient(145deg, #e9454e 0%, #ffed7b 100%);
 
-@css[text-white]
+@snap[midpoint text-white]
 Logging with slf4j and Logback
 
 +++
