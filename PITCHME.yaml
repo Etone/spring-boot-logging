@@ -26,7 +26,7 @@ theme-override : template/css/PITCHME.css
 # https://gitpitch.com/docs/settings/logo
 #
 logo : template/img/logo.png
-logo-position : top-left
+logo-position : bottom-right
 
 #
 # Footnote Setting
