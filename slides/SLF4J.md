@@ -14,6 +14,9 @@ public class ReferencesController {
     private Logger logger = LoggerFactory.getLogger(
         ReferencesController.class);
 
+    private Logger logger = LoggerFactory.getLogger(
+        ReferencesController.class);
+
     @GetMapping("/error")
     public void logErrorMessageFromReferences(){
         logger.error("References error log message");
@@ -21,5 +24,5 @@ public class ReferencesController {
 }
 ```
 
-@[1,2,6-7](Initialization of logger with logger factory)
+@[1-2,6-10](Initialization of logger with LoggerFactory)
 @[11](Usage of logger to log error message)
