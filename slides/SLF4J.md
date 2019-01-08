@@ -29,7 +29,7 @@ public class ReferencesController {
 @[3-4,8-12](Initialization of logger with LoggerFactory)
 @[16](Usage of logger to log error message)
 
-+++?image=template/img/bg/orange.jpg&position=top&size=100% 20%
++++?image=template/img/bg/orange.jpg&position=top&size=100% 10%
 
 @snap[north text-white span-100]
 Logging Format
