@@ -14,7 +14,8 @@ Exception logging
 try {
     //Code that potentially throws exception
 } catch (Exception ex) {
-    logger.error("Error while writing debugging Message.", ex.getStackTrace(), ex);
+    logger.error("Error while logging.",
+     ex.getStackTrace(), ex);
 }
 
 ```
@@ -26,6 +27,7 @@ String concationation
 
 ```java
 
-logger.warn("Warning message for ID {1}", id)
+logger.warn("Warning message for ID {1}",
+ id)
 
 ```
