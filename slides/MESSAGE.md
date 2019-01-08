@@ -9,7 +9,7 @@ String concationation
 @snapend
 
 ```java
-logger.debug("Warning message for ID {1}",id)
+logger.debug("Warning message for ID {} and organization {}",id, orgId);
 ```
 
 @[1](String concatination only done when loglevel < DEBUG)
